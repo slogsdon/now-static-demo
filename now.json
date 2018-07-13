@@ -1,0 +1,13 @@
+{
+  "name": "now-static",
+  "alias": "now-static.logsdon.io",
+  "public": true,
+  "static": true,
+  "files": [
+    "public"
+  ],
+  "static": {
+    "public": "public",
+    "trailingSlash": true
+  }
+}

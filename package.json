@@ -1,0 +1,16 @@
+{
+  "name": "now-static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "mkdir -p public && cp -R src/* public",
+    "deploy": "now --static && now alias",
+    "prebuild": "rm -rf public",
+    "start": "serve"
+  },
+  "devDependencies": {
+    "now": "^11.2.9",
+    "serve": "^9.2.0"
+  }
+}
