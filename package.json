@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "now": "^11.2.9",
-    "serve": "^9.2.0"
+    "serve": "^10.1.2"
   }
 }
